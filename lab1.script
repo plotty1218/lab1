@@ -1,0 +1,13 @@
+Script started on 2016年03月06日 (週日) 23時15分04秒
+]0;H34016144@2015cpp: ~[01;32mH34016144@2015cpp[00m:[01;34m~[00m$ whoami; pws[Kd
+H34016144
+/home/H34016144
+]0;H34016144@2015cpp: ~[01;32mH34016144@2015cpp[00m:[01;34m~[00m$ git config-[K -1[Kl
+user.name=plotty1218
+user.email=plotty242424@gmail.com
+]0;H34016144@2015cpp: ~[01;32mH34016144@2015cpp[00m:[01;34m~[00m$ git clone https://github.com/plotty1218/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;H34016144@2015cpp: ~[01;32mH34016144@2015cpp[00m:[01;34m~[00m$ exit
+
+Script done on 2016年03月06日 (週日) 23時22分54秒
