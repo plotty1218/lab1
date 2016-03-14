@@ -1,8 +1,34 @@
-Script started on 2016年03月07日 (週一) 01時09分28秒
-]0;H34016144@2015cpp: ~/lab1[01;32mH34016144@2015cpp[00m:[01;34m~/lab1[00m$ 22g++ -o lab1 lab1.cpp
+Script started on 2016年03月14日 (週一) 21時38分04秒
+]0;H34016144@2015cpp: ~/lab1[01;32mH34016144@2015cpp[00m:[01;34m~/lab1[00m$ cat lab1.cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n;
+	
+	cin >> n;
+	cout << n;
+	
+	while(1){
+		if (n==1){
+			break;
+		}
+		if(n%2==1){
+			n=3*n+1;
+		}
+		else{
+			n=n/2;
+		}
+		cout << " " << n;
+	}
+	cout << endl;
+	return 0;
+}
+]0;H34016144@2015cpp: ~/lab1[01;32mH34016144@2015cpp[00m:[01;34m~/lab1[00m$ g++ -o lab1 lab1.cpp
 ]0;H34016144@2015cpp: ~/lab1[01;32mH34016144@2015cpp[00m:[01;34m~/lab1[00m$ ./lab1
 22
 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 ]0;H34016144@2015cpp: ~/lab1[01;32mH34016144@2015cpp[00m:[01;34m~/lab1[00m$ exit
 
-Script done on 2016年03月07日 (週一) 01時09分47秒
+Script done on 2016年03月14日 (週一) 21時38分51秒
